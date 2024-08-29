@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+
+:root {
+    --background-color: #f7f7f7;
+    --text-color: #333;
+    --link-color: #007bff;
+}
+
+.dark-mode {
+    --background-color: #333;
+    --text-color: #f7f7f7;
+    --link-color: #007bff;
+}
+
+.header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 60px 20px;
+    margin-top: 60px;
+}
+
+.parallax {
+    /* Removed background image and added a solid background color */
+    background: #555;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects-container .project {
+    background: var(--background-color);
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 45%;
+}
+
+#projects-container .project:hover {
+    transform: translateY(-5px);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background: var(--link-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+}
+
+#back-to-top:hover {
+    background: #0056b3;
+}
+
+.dark-mode #back-to-top {
+    background: #007bff;
+    color: #333;
+}

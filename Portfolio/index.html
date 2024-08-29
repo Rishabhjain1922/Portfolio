@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Jain - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header class="bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">Rishabh Jain</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><button id="theme-toggle" class="btn btn-outline-light">Dark Mode</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="section parallax">
+        <div class="container text-center text-white">
+            <h1>Welcome to Rishabh Jain's Portfolio</h1>
+            <p>Electronics and Telecommunication Engineer | Web Developer</p>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Passionate about technology and innovation, I specialize in web development and software engineering.</p>
+            <p>Experienced in building dynamic and responsive websites using modern web technologies.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Skills</h3>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 90%">HTML & CSS</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 85%">JavaScript</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 80%">React</div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%">Python</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Removed Image Section -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Projects</h2>
+            <div id="projects-container" class="row">
+                <!-- Projects will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="section">
+        <div class="container text-center">
+            <h2>Resume</h2>
+            <a href="Rishabh_resume.pdf" download class="btn btn-primary">Download Resume</a>
+        </div>
+    </section>
+    <section id="contact" class="section bg-dark text-white">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:Rishabhjain1922@gmail.com" class="text-white">Rishabhjain1922@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/rishabh-jain-22a19422a/" target="_blank" class="text-white">Rishabh Jain</a></p>
+            <p>GitHub: <a href="https://github.com/Rishabhjain1922" target="_blank" class="text-white">Rishabh Jain</a></p>
+        </div>
+    </section>
+    <button id="back-to-top" title="Back to Top">↑</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
